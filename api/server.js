@@ -4,7 +4,8 @@ const auth = require('json-server-auth')
 
 const server = jsonServer.create()
 const router = jsonServer.router('db.json')
-// const middlewares = jsonServer.defaults()
+const middlewares = jsonServer.defaults({noCors:false})
+server.use(middlewares)
 
 server.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', 'https://vuetify-movies-app.vercel.app')
@@ -12,7 +13,6 @@ server.use((req, res, next) => {
     next()
   })
 
-// server.use(middlewares)
 server.db = router.db
 
 // Add this before server.use(router)
