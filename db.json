@@ -1,9 +1,122 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "email": "chams@mail.com",
+      "password": "$2a$10$ITB6ZblUni1y7pkX4KPKOu.8nK.SC7ezbw4UV7eAEwZmjHaqnemjS",
+      "firstname": "Chamseddine",
+      "lastname": "Bouhouch",
+      "age": 28,
+      "id": 1
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "movies": [
+    {
+      "Title": "Batman v Superman: Dawn of Justice",
+      "Year": "2016",
+      "imdbID": "tt2975590",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "Title": "Batman v Superman: Dawn of Justice",
+      "Year": "2016",
+      "imdbID": "tt2975590",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "Title": "The Batman",
+      "Year": "2022",
+      "imdbID": "tt1877830",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_SX300.jpg",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "Title": "The Dark Knight",
+      "Year": "2008",
+      "imdbID": "tt0468569",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "Title": "Batman",
+      "Year": "1989",
+      "imdbID": "tt0096895",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDNjOGNhN2UtNmNhMC00YjU4LWEzMmUtNzRkM2RjN2RiMjc5XkEyXkFqcGdeQXVyMTU0OTM5ODc1._V1_SX300.jpg",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "Title": "Batman",
+      "Year": "1989",
+      "imdbID": "tt0096895",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDNjOGNhN2UtNmNhMC00YjU4LWEzMmUtNzRkM2RjN2RiMjc5XkEyXkFqcGdeQXVyMTU0OTM5ODc1._V1_SX300.jpg",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "Title": "Batman v Superman: Dawn of Justice",
+      "Year": "2016",
+      "imdbID": "tt2975590",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "Title": "Batman",
+      "Year": "1989",
+      "imdbID": "tt0096895",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDNjOGNhN2UtNmNhMC00YjU4LWEzMmUtNzRkM2RjN2RiMjc5XkEyXkFqcGdeQXVyMTU0OTM5ODc1._V1_SX300.jpg",
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "Title": "Batman v Superman: Dawn of Justice",
+      "Year": "2016",
+      "imdbID": "tt2975590",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "userId": 1,
+      "id": 9
+    },
+    {
+      "Title": "Batman v Superman: Dawn of Justice",
+      "Year": "2016",
+      "imdbID": "tt2975590",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "userId": 1,
+      "id": 10
+    },
+    {
+      "Title": "Batman v Superman: Dawn of Justice",
+      "Year": "2016",
+      "imdbID": "tt2975590",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "userId": 1,
+      "id": 11
+    },
+    {
+      "Title": "Batman v Superman: Dawn of Justice",
+      "Year": "2016",
+      "imdbID": "tt2975590",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "userId": 1,
+      "id": 12
+    }
+  ]
 }
