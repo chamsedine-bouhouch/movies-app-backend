@@ -4,7 +4,7 @@ const auth = require('json-server-auth')
 
 const server = jsonServer.create()
 const router = jsonServer.router('db.json')
-const middlewares = jsonServer.defaults({noCors:false})
+const middlewares = jsonServer.defaults({noCors:true})
 
 server.use(middlewares)
 server.db = router.db
